@@ -5,7 +5,7 @@ const { ApolloServer } = require('apollo-server-express')
 
 const middleware = require('../middleware/global')
 const typeDefs = require('../graphql/schema')
-const { resolvers } = require('../graphql')
+const resolvers = require('../graphql/resolvers')
 
 const app = express()
 const port = process.env.PORT
